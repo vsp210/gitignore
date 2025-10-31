@@ -1,0 +1,34 @@
+# Created by https://www.gitignore.io/api/dark
+# Edit at https://www.gitignore.io/?templates=dark
+
+### Dark ###
+# Игнорируем виртуальные окружения (denv)
+venv/
+*.denv/
+
+# Игнорируем кэш-файлы интерпретатора Dark (AST-кэш и т.д.)
+__darkcache__/
+.dark_cache/
+
+# Файлы зависимостей пакетного менеджера
+# Обычно их не хранят, если есть requirements.txt
+dark_extensions/
+
+# Файл зависимостей (аналог lock-файла, если появится)
+# requirements.lock
+
+# =================================================================
+# Python specific (для расширений и самого интерпретатора)
+# =================================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =================================================================
+# IDE and editor specific
+# =================================================================
+# Visual Studio Code
+.vscode/
+
+# End of https://www.gitignore.io/api/dark
